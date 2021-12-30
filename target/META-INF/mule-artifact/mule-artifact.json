@@ -1,0 +1,52 @@
+{
+  "configs": [
+    "implementations/travelOnTip-GetRoutes-Implementations.xml",
+    "implementations/travelOnTip-GetSchedules-Implementations.xml",
+    "global/retrievetravelontip-routesschedule-sapi.xml",
+    "global/globalElements.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:retrievetravelontip-routesschedule-sapi1:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.4.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "api/libraries/common/commonBusinessLibrary.raml",
+        "api/libraries/common/dataTypes/commonErrorDataType.raml",
+        "api/libraries/common/examples/400Response-Example.json",
+        "api/libraries/common/examples/404Response-Example.json",
+        "api/libraries/common/examples/500Response-Example.json",
+        "api/libraries/common/traits/header-transactionId-traits.raml",
+        "api/libraries/common/traits/queryParamsaDepatureLocationCode-traits.raml",
+        "api/libraries/common/traits/queryParamsDestinationLocation-traits.raml",
+        "api/libraries/routes/dataTypes/getRoute200Response-DataType.raml",
+        "api/libraries/routes/examples/getRoutes200Response-Example.json",
+        "api/libraries/routes/routesBusinesslIbrary.raml",
+        "api/libraries/schedules/dataTypes/getSchedule200response-DataType.raml",
+        "api/libraries/schedules/examples/getSchedule200response-Example.json",
+        "api/libraries/schedules/schedulesBusinessLibrary.raml",
+        "api/retrievetravelontip-routesschedule-sapi.raml",
+        "application-types.xml",
+        "config/dev.yaml",
+        "config/local.yaml",
+        "config/ppe.yaml",
+        "config/prod.yaml",
+        "config/sit.yaml",
+        "config/uat.yaml",
+        "global/globalElements.xml",
+        "global/retrievetravelontip-routesschedule-sapi.xml",
+        "implementations/travelOnTip-GetRoutes-Implementations.xml",
+        "implementations/travelOnTip-GetSchedules-Implementations.xml",
+        "log4j2.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
