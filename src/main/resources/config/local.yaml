@@ -1,0 +1,11 @@
+http: 
+  listener: 
+    port: "8083"
+    host: "localhost"
+    
+  requester:
+    port: "8081"
+    host: "localhost"
+    routespath : "/travelonTipcall/routes"
+    schedulespath : "/travelonTipcall/schedules"
+    
