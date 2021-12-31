@@ -1,6 +1,7 @@
 {
   "configs": [
     "implementations/travelOnTip-GetRoutes-Implementations.xml",
+    "global/globalErrorHandler.xml",
     "implementations/travelOnTip-GetSchedules-Implementations.xml",
     "global/retrievetravelontip-routesschedule-sapi.xml",
     "global/globalElements.xml"
@@ -38,6 +39,7 @@
         "config/sit.yaml",
         "config/uat.yaml",
         "global/globalElements.xml",
+        "global/globalErrorHandler.xml",
         "global/retrievetravelontip-routesschedule-sapi.xml",
         "implementations/travelOnTip-GetRoutes-Implementations.xml",
         "implementations/travelOnTip-GetSchedules-Implementations.xml",
